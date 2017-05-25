@@ -19,7 +19,7 @@ APP
 */
 class PropertyFinderApp extends React.Component {
   render() {
-    return React.createElement(ReactNative.Text, {style: styles.text}, "Hello World!");
+    return <ReactNative.Text style={styles.text}>Hello World (Again)</ReactNative.Text>;
   }
 }
 
